@@ -3,4 +3,5 @@
     <string name="expand_feature">Expand feature</string>
     <string name="login_button">Login button</string>
     <string name="cart_button">Cart button</string>
+    <string name="add_to_cart">Add to cart</string>
 </resources>
