@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="background_app">#F5F6FA</color>
     <color name="login_button">#26283D</color>
+    <color name="pink_red">#FF626C</color>
 </resources>

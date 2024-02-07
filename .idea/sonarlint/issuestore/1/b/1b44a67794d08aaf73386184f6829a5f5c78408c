@@ -1,6 +1,6 @@
 
 |
-java:S1450"ZRemove the "loginButton" field and declare it as a local variable in the relevant methods.(Ä§Ú°úÿÿÿÿ8ª§Ý©Ö1
-C	java:S131+""Add a default case to this switch.(ãÁð™øÿÿÿÿ8¶§Ý©Ö1
+java:S1450"ZRemove the "loginButton" field and declare it as a local variable in the relevant methods.(Ä§Ú°úÿÿÿÿ8®ážñ×1
+C	java:S131+""Add a default case to this switch.(ãÁð™øÿÿÿÿ8Éážñ×1
 R
-java:S1874."6Remove this use of "setColorFilter"; it is deprecated.(ºªæ8¸§Ý©Ö1
+java:S1874."6Remove this use of "setColorFilter"; it is deprecated.(ºªæ8Êážñ×1

@@ -28,11 +28,11 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         list.add(1);
         list.add(1);
 
-        RecycleDataAdapter adapter = new RecycleDataAdapter(this, list);
+        RecycleHomePageDataAdapter adapter = new RecycleHomePageDataAdapter(this, list);
         RecyclerView recyclerView = findViewById(R.id.rv_items);
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         recyclerView.setAdapter(adapter);
-
+        
         loginButton = findViewById(R.id.login_button);
         loginButton.setOnTouchListener(this);
     }

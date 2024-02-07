@@ -10,11 +10,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class RecycleDataAdapter extends RecyclerView.Adapter<RecycleDataAdapter.MyViewHolder> {
+public class RecycleCartDataAdapter extends RecyclerView.Adapter<RecycleCartDataAdapter.MyViewHolder> {
     private Context context;
     private List<Integer> items;
 
-    public RecycleDataAdapter(Context context, List<Integer> items) {
+    public RecycleCartDataAdapter(Context context, List<Integer> items) {
         this.context = context;
         this.items = items;
     }
@@ -23,7 +23,7 @@ public class RecycleDataAdapter extends RecyclerView.Adapter<RecycleDataAdapter.
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         View itemView;
-        itemView = LayoutInflater.from(context).inflate(R.layout.item, parent, false);
+        itemView = LayoutInflater.from(context).inflate(R.layout.cart_item, parent, false);
         return new MyViewHolder(itemView);
     }
 
